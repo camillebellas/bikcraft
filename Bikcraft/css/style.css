@@ -18,7 +18,29 @@ d"     YD
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    border: 3px solid var(--amarelo);
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--amarelo);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .1em;
+}
+
+.btn:hover {
+    color: var(--branco);
+    border-color:var(--branco);
+    transition: 0.3s;
 }
 
 
@@ -65,3 +87,59 @@ o888o o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b
     color: var(--branco);
     transition: 0.1s;
 } 
+
+/* 
+ o8o                  .                      
+ `"'                .o8                      
+oooo  ooo. .oo.   .o888oo oooo d8b  .ooooo.  
+`888  `888P"Y88b    888   `888""8P d88' `88b 
+ 888   888   888    888    888     888   888 
+ 888   888   888    888 .  888     888   888 
+o888o o888o o888o   "888" d888b    `Y8bod8P' 
+*/
+
+.introducao {
+    width: 100%;
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 96px;
+    height: 380px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--branco);
+    text-transform: uppercase;
+}
+
+.quote_externo {
+    max-width: 320px;
+    margin: 0 auto;
+    color: var(--branco);
+    margin-bottom: 40px;
+}
+
+.quote_externo p {
+    font-style: italic;
+}
+
+.quote_externo p:before, .quote_externo p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--branco);
+    margin: 14px auto 10px auto;
+}
+
+.quote_externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
