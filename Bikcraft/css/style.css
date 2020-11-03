@@ -328,3 +328,84 @@ d88' `888  `888  `888  `P  )88b   888  `888  d88' `888  `P  )88b  d88' `888  d88
     background: var(--preto);
     margin: 6px auto;
 }
+
+
+/* 
+ .o88o.                         .                      
+ 888 `"                       .o8                      
+o888oo   .ooooo.   .ooooo.  .o888oo  .ooooo.  oooo d8b 
+ 888    d88' `88b d88' `88b   888   d88' `88b `888""8P 
+ 888    888   888 888   888   888   888ooo888  888     
+ 888    888   888 888   888   888 . 888    .o  888     
+o888o   `Y8bod8P' `Y8bod8P'   "888" `Y8bod8P' d888b                                                         
+*/
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.quebra .quote_externo {
+    max-width: 400px;
+}
+
+.footer {
+    width: 100%;
+    background: var(--preto);
+    color: var(--branco);
+    padding: 40px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--amarelo);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--amarelo);
+    margin: 6px 0 10px 0;
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_redes ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a {
+    border: 3px solid var(--amarelo);
+    display: block;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer_redes ul li a:hover {
+    border-color: var(--branco);
+}
+
+.copy {
+    width: 100%;
+    background: var(--amarelo);
+    padding: 20px 0;
+}
