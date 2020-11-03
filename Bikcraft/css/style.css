@@ -26,6 +26,26 @@ p {
     line-height: 20px;
 }
 
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: var(--preto);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--preto);
+    margin: 8px auto;
+}
+
 .btn {
     border: 3px solid var(--amarelo);
     padding: 10px 30px;
@@ -40,6 +60,12 @@ p {
 .btn:hover {
     color: var(--branco);
     border-color:var(--branco);
+    transition: 0.3s;
+}
+
+.btn.btn_preto:hover {
+    color: var(--preto);
+    border-color:var(--preto);
     transition: 0.3s;
 }
 
@@ -60,6 +86,7 @@ o888o o888o `Y8bod8P' `Y888""8o `Y8bod88P" `Y8bod8P' d888b
     width: 100%;
     background: var(--amarelo);
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header_menu {
@@ -143,3 +170,60 @@ o888o o888o o888o   "888" d888b    `Y8bod8P'
     text-transform: uppercase;
 }
 
+/* 
+                                    .o8                  .                      
+                                   "888                .o8                      
+oo.ooooo.  oooo d8b  .ooooo.   .oooo888  oooo  oooo  .o888oo  .ooooo.   .oooo.o 
+ 888' `88b `888""8P d88' `88b d88' `888  `888  `888    888   d88' `88b d88(  "8 
+ 888   888  888     888   888 888   888   888   888    888   888   888 `"Y88b.  
+ 888   888  888     888   888 888   888   888   888    888 . 888   888 o.  )88b 
+ 888bod8P' d888b    `Y8bod8P' `Y8bod88P"  `V88V"V8P'   "888" `Y8bod8P' 8""888P' 
+ 888                                                                            
+*/
+
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos_lista li {
+    background: var(--amarelo);
+    text-align: center;
+}
+
+.produtos_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.produtos_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--preto);
+    margin: 2px auto;
+}
+
+.produtos_lista li p {
+    margin: 10px 20px 20px 20px;
+}
+
+.produtos_icone {
+    background: var(--preto);
+    padding: 20px;
+}
+
+.call {
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
