@@ -227,3 +227,38 @@ oo.ooooo.  oooo d8b  .ooooo.   .oooo888  oooo  oooo  .o888oo  .ooooo.   .oooo.o
 .call p {
     margin-bottom: 20px;
 }
+
+/* 
+                                  .    .o88o.           oooo   o8o            
+                                .o8    888 `"           `888   `"'            
+oo.ooooo.   .ooooo.  oooo d8b .o888oo o888oo   .ooooo.   888  oooo   .ooooo.  
+ 888' `88b d88' `88b `888""8P   888    888    d88' `88b  888  `888  d88' `88b 
+ 888   888 888   888  888       888    888    888   888  888   888  888   888 
+ 888   888 888   888  888       888 .  888    888   888  888   888  888   888 
+ 888bod8P' `Y8bod8P' d888b      "888" o888o   `Y8bod8P' o888o o888o `Y8bod8P' 
+ 888                                                                          
+o888o                                                                                                                                                
+*/
+
+.portfolio {
+    width: 100%;
+    background: var(--preto);
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+    color: var(--amarelo);
+
+}
+
+.portfolio .subtitulo:after {
+    background: var(--amarelo);
+}
+
+.portfolio .call p {
+    color: var(--branco);
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
