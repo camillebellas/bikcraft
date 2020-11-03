@@ -73,6 +73,10 @@ img {
     border-color:var(--preto);
 }
 
+.header_menu ul li a.menu_ativo {
+    color: var(--branco);
+}
+
 
 /* 
 oooo                                  .o8                     
