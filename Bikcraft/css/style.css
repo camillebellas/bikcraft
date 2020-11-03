@@ -176,6 +176,55 @@ o888o o888o o888o   "888" d888b    `Y8bod8P'
 }
 
 /* 
+
+ o8o                  .                                            
+ `"'                .o8                                            
+oooo  ooo. .oo.   .o888oo oooo d8b  .ooooo.                        
+`888  `888P"Y88b    888   `888""8P d88' `88b                       
+ 888   888   888    888    888     888   888                       
+ 888   888   888    888 .  888     888   888                       
+o888o o888o o888o   "888" d888b    `Y8bod8P'                       
+                                                                   
+                                                                   
+                                                                   
+ o8o                  .                                            
+ `"'                .o8                                            
+oooo  ooo. .oo.   .o888oo  .ooooo.  oooo d8b ooo. .oo.    .oooo.   
+`888  `888P"Y88b    888   d88' `88b `888""8P `888P"Y88b  `P  )88b  
+ 888   888   888    888   888ooo888  888      888   888   .oP"888  
+ 888   888   888    888 . 888    .o  888      888   888  d8(  888  
+o888o o888o o888o   "888" `Y8bod8P' d888b    o888o o888o `Y888""8o 
+*/
+
+.introducao_interna {
+    width: 100%;
+    background-size: cover;
+    margin-top: 92px;
+    height: 160px;
+    text-align: center;
+    color: var(--branco);
+    padding-top: 30px;
+}
+
+.introducao_interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.introducao_interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--branco);
+    margin: 6px auto 10px auto;
+}
+
+
+
+/* 
                                     .o8                  .                      
                                    "888                .o8                      
 oo.ooooo.  oooo d8b  .ooooo.   .oooo888  oooo  oooo  .o888oo  .ooooo.   .oooo.o 
@@ -303,6 +352,7 @@ d88' `888  `888  `888  `P  )88b   888  `888  d88' `888  `P  )88b  d88' `888  d88
 
 .qualidade_lista {
     padding-top: 20px;
+    overflow: auto;
 }
 
 .qualidade_lista li {

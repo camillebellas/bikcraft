@@ -1,0 +1,54 @@
+/* 
+                    .o8                          
+                   "888                          
+ .oooo.o  .ooooo.   888oooo.  oooo d8b  .ooooo.  
+d88(  "8 d88' `88b  d88' `88b `888""8P d88' `88b 
+`"Y88b.  888   888  888   888  888     888ooo888 
+o.  )88b 888   888  888   888  888     888    .o 
+8""888P' `Y8bod8P'  `Y8bod8P' d888b    `Y8bod8P' 
+*/
+
+.interna_sobre {
+    background: url(../img/bg-sobre.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.missao_sobre {
+    padding-top: 60px;
+}
+
+.missao_sobre p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.missao_sobre ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.foto_equipe {
+    padding-top: 20px;
+}
+
+.subtitulo_interno {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: var(--preto);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo_interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--preto);
+    margin: 8px 0;
+}
