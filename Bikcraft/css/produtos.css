@@ -102,6 +102,7 @@ o888o   `Y8bod8P' d888b    o888o o888o o888o
     background: var(--preto);
     width: 100%;
     padding: 40px 0;
+    margin-top: 60px;
 }
 
 .orcamento h2 {
