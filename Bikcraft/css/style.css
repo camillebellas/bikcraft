@@ -276,6 +276,10 @@ oo.ooooo.  oooo d8b  .ooooo.   .oooo888  oooo  oooo  .o888oo  .ooooo.   .oooo.o
     padding: 20px;
 }
 
+.produtos_icone img {
+    margin: 0 auto;
+}
+
 .call {
     text-align: center;
     padding-top: 40px;
