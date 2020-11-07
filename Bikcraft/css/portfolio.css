@@ -1,0 +1,42 @@
+/* 
+                                  .    .o88o.           oooo   o8o            
+                                .o8    888 `"           `888   `"'            
+oo.ooooo.   .ooooo.  oooo d8b .o888oo o888oo   .ooooo.   888  oooo   .ooooo.  
+ 888' `88b d88' `88b `888""8P   888    888    d88' `88b  888  `888  d88' `88b 
+ 888   888 888   888  888       888    888    888   888  888   888  888   888 
+ 888   888 888   888  888       888 .  888    888   888  888   888  888   888 
+ 888bod8P' `Y8bod8P' d888b      "888" o888o   `Y8bod8P' o888o o888o `Y8bod8P' 
+ 888                                                                          
+o888o                                                                         
+                                                                              
+*/
+
+.interna_portfolio {
+    background: url(../img/bg-portfolio.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.quote_clientes {
+    padding: 60px 0;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.quote_clientes p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    color: var(--preto);
+    margin-bottom: 20px;
+}
+
+.quote_clientes cite {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--preto);
+}
