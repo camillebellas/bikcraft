@@ -14,7 +14,22 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
 */
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    .qualidade:after {
+       right: 66px;
+    }
 
+    .qualidade_lista li {
+        padding: 0 10px;
+    }
+
+    .footer_redes ul li a {
+        padding: 6px;
+    }
+
+    .footer_redes ul li a img {
+        width: 26px;
+        height: 26px;
+    }
 }
 
 @media only screen and (max-width: 787px) {
@@ -58,22 +73,33 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
     }
 
     /* 
-     o8o                  .                      
-     `"'                .o8                      
-    oooo  ooo. .oo.   .o888oo oooo d8b  .ooooo.  
-    `888  `888P"Y88b    888   `888""8P d88' `88b 
-     888   888   888    888    888     888   888 
-     888   888   888    888 .  888     888   888 
-    o888o o888o o888o   "888" d888b    `Y8bod8P' 
+    oooo                                              
+    `888                                              
+     888 .oo.    .ooooo.  ooo. .oo.  .oo.    .ooooo.  
+     888P"Y88b  d88' `88b `888P"Y88bP"Y88b  d88' `88b 
+     888   888  888   888  888   888   888  888ooo888 
+     888   888  888   888  888   888   888  888    .o 
+    o888o o888o `Y8bod8P' o888o o888o o888o `Y8bod8P'                                        
    */
 
    .introducao {
        margin-top: 0px;
-       padding-top: 20px;
+       padding-top: 50px;
        background: url("../img/bg-mobile.jpg") no-repeat center;
        background-size: cover;
    }
 
+   .introducao h1 {
+       font-size: 36px;
+   }
+
+    .call {
+        padding: 10px;
+    }
+
+    .qualidade:after {
+        display: none;
+     }
 
 
 }
