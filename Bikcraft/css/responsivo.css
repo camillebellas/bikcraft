@@ -224,4 +224,13 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
         margin-top: 0px;
     }
 
+    .interna_contato {
+        margin-top: 0px;
+    }
+
+    .contato_form {
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+
 }
