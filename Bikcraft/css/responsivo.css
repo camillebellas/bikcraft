@@ -30,6 +30,25 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
         width: 26px;
         height: 26px;
     }
+
+    .produto_item h2 {
+        top: -150px;
+    }
+
+    .produto_icone {
+        padding: 41px 0;
+    }
+
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 123.5px;
+    }
+
+    .produto_info ul li {
+        width: 181px;
+    }
 }
 
 @media only screen and (max-width: 787px) {
@@ -142,5 +161,53 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
         line-height: 25px;
     }
 
+
+    /* 
+                                        .o8                  .                      
+                                       "888                .o8                      
+    oo.ooooo.  oooo d8b  .ooooo.   .oooo888  oooo  oooo  .o888oo  .ooooo.   .oooo.o 
+     888' `88b `888""8P d88' `88b d88' `888  `888  `888    888   d88' `88b d88(  "8 
+     888   888  888     888   888 888   888   888   888    888   888   888 `"Y88b.  
+     888   888  888     888   888 888   888   888   888    888 . 888   888 o.  )88b 
+     888bod8P' d888b    `Y8bod8P' `Y8bod88P"  `V88V"V8P'   "888" `Y8bod8P' 8""888P' 
+     888                                                                            
+    o888o                                                                                                                                       
+    */
+
+    .interna_produtos {
+        margin-top: 0px;
+    }
+
+    .produto_item h2 {
+        top: -100px;
+        margin-bottom: -68px;
+    }
+
+    .produto_icone {
+        padding: 41px 0;
+    }
+
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: auto;
+    }
+
+    .produto_info ul li {
+        width: 149px;
+        height: 49px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+
+    form {
+        padding: 0px;
+    }
+
+    .orcamento_dados ul {
+        padding: 10px 0px 0px 0px;
+    }
 
 }
