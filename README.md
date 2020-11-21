@@ -7,10 +7,10 @@ Nesse repositório, fiz o código da página "Bikcraft", uma loja fictícia que 
 * Uma página de 'Produtos'
 * Um 'Portfolio'
 * Uma página de contato com um formulário que _ainda_ não funciona. 🤡
+* Responsivo!
 
 ### 👀 Vem por aí:
 * Ainda quero fazer esse formulário funcionar
-* Responsivo!
 * Um pouquinho de JavaScript pra dar emoção
 * Deixar essa página disponível no GitHub Pages
 
