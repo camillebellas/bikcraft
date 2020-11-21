@@ -8,10 +8,10 @@ Nesse repositório, fiz o código da página "Bikcraft", uma loja fictícia que 
 * Um 'Portfolio'
 * Uma página de contato com um formulário que _ainda_ não funciona. 🤡
 * Responsivo!
+* Um pouquinho de JavaScript pra dar emoção
 
 ### 👀 Vem por aí:
 * Ainda quero fazer esse formulário funcionar
-* Um pouquinho de JavaScript pra dar emoção
 * Deixar essa página disponível no GitHub Pages
 
 _No momento, estou fazendo esse projeto no meu tempo livre. Como ser-humaninho que faz faculdade de Design e trabalha, estou me comprometendo com um commitinho por dia, na paz do Senhor. Sinta-se livre pra acompanhar cada pedacinho desse projeto. Estou fazendo com muito carinho porque gosto de aprender sobre o assunto. 🤙🏻_ 
