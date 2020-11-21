@@ -34,6 +34,10 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
 
 @media only screen and (max-width: 787px) {
 
+    .header_menu ul li a.menu_ativo {
+        border-color: var(--branco);
+    }
+
         /* 
     oooo                                  .o8                     
     `888                                 "888                     
@@ -108,5 +112,35 @@ d888b    `Y8bod8P' 8""888P'  888bod8P' `Y8bod8P' o888o o888o 8""888P' o888o     
      .qualidade_lista li {
         padding-bottom: 10px;
     }
+
+    /* 
+                       .o8                          
+                      "888                          
+    .oooo.o  .ooooo.   888oooo.  oooo d8b  .ooooo.  
+    d88(  "8 d88' `88b  d88' `88b `888""8P d88' `88b 
+    `"Y88b.  888   888  888   888  888     888ooo888 
+    o.  )88b 888   888  888   888  888     888    .o 
+    8""888P' `Y8bod8P'  `Y8bod8P' d888b    `Y8bod8P' 
+    */
+
+    .interna_sobre {
+        margin-top: 0px;
+    }
+
+    .subtitulo_interno:nth-last-child() {
+        padding-top: 10px;
+    }
+
+    .missao_sobre p {
+        padding-right: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .missao_sobre ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
 
 }
